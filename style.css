@@ -70,6 +70,7 @@ a{
     text-transform: uppercase;
     height: 20%;
     width: 1%;
+    text-shadow: 2px 2px blue; 
 }
 #header .header{
     min-height: 8vh;
@@ -325,6 +326,7 @@ z-index: -1;
     max-width: 1000px;
     margin: 0 auto;
     padding: 100px ;
+    
 }
 #projects .projects-header h1{
     margin-bottom: 100px;
@@ -343,11 +345,11 @@ z-index: -1;
     width: 100%;
     margin: 20px auto;
     overflow: hidden;
-    border-radius: 0px;
+    border-radius: 0 auto ;
 }
 #projects .project-info{
     padding: 30px;
-    flex-basis: 50%;
+    flex-basis: 10%;
     height: 100%;
     display: flex;
     align-items: flex-start ;
@@ -357,11 +359,12 @@ z-index: -1;
     color: white;
 }
 #projects .section-title{
-    margin-top: 150px;
+    margin-top: 50px;
 
 }
 #projects .project-info a{
-    color: black;
+    color: yellow;
+    text-shadow: 3px 3px purple;
 }
 #projects .project-info h1{
     color: rgb(255, 251, 0);
@@ -369,6 +372,7 @@ z-index: -1;
     margin-top: 15px;
     font-size: 4rem;
     font-weight: 600;
+    
 }
 #projects .project-info h2{
     color: black;
@@ -469,23 +473,24 @@ z-index: -1;
     margin: 0 auto ;
     margin-bottom: 10px;
     margin-top: 200px;
+    
 }
 #contact .contact-items{
-    width: 500px;
+    width: 450px;
     justify-content: center;
 }
 #contact .contact-item{
-    width: 80%;
+    width: 90%;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 30px;
     margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 0px 18px 0 #0000002c ;
+    box-shadow: 0px 0px 18px 0  #0000002c   ;
 }
 #contact .contact-item:hover{
     box-shadow: 0px 0px 5px 0 #0000002c ;
@@ -493,7 +498,7 @@ z-index: -1;
 #contact .icon{
     width: 70px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 #contact .contact-info h1{
     margin: 0 auto;
@@ -525,6 +530,7 @@ margin-bottom: 10px;
     color: yellow;
     font-size: 3rem;
 	text-transform: uppercase;
+    text-shadow: 2px 3px blue ;
 }
 #footer p{
     color: white;
