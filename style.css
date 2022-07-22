@@ -684,6 +684,7 @@ margin-bottom: 10px;
         width: 50%;
         text-align: center;
         padding-left: 20px;
+	border-radius: 100px;
     }
     /* End Contact */
 }
