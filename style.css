@@ -681,8 +681,8 @@ margin-bottom: 10px;
         object-fit: contain;
     }
     #contact .contact-item .contact-info{
-        width: 100%;
-        text-align: left;
+        width: 50%;
+        text-align: center;
         padding-left: 20px;
     }
     /* End Contact */
